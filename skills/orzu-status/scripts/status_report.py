@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Сводка прогресса по всем проектам Orzu Medical.
 
-Запуск из корня репозитория orzu-medical-projects:
+Запуск из корня репозитория orzu-medical/ai-projects:
     python3 <папка навыка>/scripts/status_report.py [--save]
 
 Читает projects/*/STATUS.md, смотрит, есть ли в папке DWH.md,
@@ -66,7 +66,7 @@ def first_line(text):
 
 def main():
     if not PROJECTS.is_dir():
-        sys.exit("Нет папки projects/. Запустите из корня репозитория orzu-medical-projects.")
+        sys.exit("Нет папки projects/. Запустите из корня репозитория orzu-medical/ai-projects.")
     today = dt.date.today()
     rows, alerts = [], []
     counts = {s: 0 for s in STAGES}

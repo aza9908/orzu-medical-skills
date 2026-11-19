@@ -22,7 +22,7 @@
 
 ## Домашка
 
-1. Откройте свой проект из репозитория `orzu-medical-projects` в Claude Code.
+1. Откройте свой проект из репозитория `orzu-medical/ai-projects` в Claude Code.
 2. Наберите `/airl-dwh` и отвечайте на вопросы. В конце появится `DWH.md` в папке вашего проекта.
 3. Наберите `/orzu-status`. Навык запишет стадию и отправит изменения на GitHub.
 4. Дальше `/orzu-status` каждую пятницу.
@@ -31,6 +31,6 @@
 
 ## Для тренера
 
-В корне `orzu-medical-projects`: `/orzu-status отчёт` покажет таблицу по всем проектам: стадия, есть ли `DWH.md`, кто застрял.
+В корне `orzu-medical/ai-projects`: `/orzu-status отчёт` покажет таблицу по всем проектам: стадия, есть ли `DWH.md`, кто застрял.
 
 Навык `airl-dwh` взят из [aza9908/airl-skills](https://github.com/aza9908/airl-skills).
